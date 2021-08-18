@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.status {
+  display: inline-block;
+  width: 5px;
+  height: 48px;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}

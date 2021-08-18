@@ -1,0 +1,38 @@
+.profile {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 700;
+  color: darkblue;
+}
+
+.tag {
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: darkcyan;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location {
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.label {
+  margin: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
